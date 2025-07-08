@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class bj10814 {
-    public void bj10814() {
+    public void solve() {
         int N = 0;
         Scanner sc = new Scanner(System.in);
         N = sc.nextInt();

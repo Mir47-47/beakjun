@@ -1,8 +1,8 @@
-import silver.bj10814;
+import silver.*;
 
 public class Main {
     public static void main(String[] args) {
-        bj10814 solution = new bj10814();
-        solution.bj10814();
+        bj11650 solution = new bj11650();
+        solution.solve();
     }
 }
