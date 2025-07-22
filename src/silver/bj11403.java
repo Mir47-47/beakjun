@@ -36,6 +36,7 @@ public class bj11403 {
     }
 
     public void graphline(int[][] graph, int start,int current, boolean[] checked) {
+        //탐색이 끝난 층일 경우 이동가능한 경로 받아오기
         if (checked[current]) {
             for (int i = 0; i < graph.length; i++) {
                 if (graph[current][i] == 1) {
@@ -44,6 +45,7 @@ public class bj11403 {
             }
             return;
         }
+        //탐색이 끝남을 표시
         checked[current] = true;
 
         Queue<Integer> q = new LinkedList<>();
